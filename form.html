@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        th{
+            background-color: #c1e3e3;
+            padding: 10px;
+        }
+        td{
+            padding: 5px;
+            color: #0b0be0;
+            background-color: #e0e0e3;
+            border:2px solid rgb(233, 180, 180);
+        }
+        form{
+            color:#0b0b6d
+        }
+        input{
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Registration form</legend>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="User name" size="30" required
+                style="background-color: aqua;"><br><br>
+            <label for="email1">Email:</label>
+            <input type="email" id="email1" placeholder="abc@gmail.com" size="30" required style="background-color: #ababf1;"><br><br>
+            <label type="pass">Password:</label>
+            <input type="password" id="pass" maxlength="10" required style="background-color: #bad9a6;"><br><br>
+            <label for="gen">Gender:</label>
+            <input type="radio" id="gen" name="gender">Male
+            <input type="radio" id="gen" name="gender">Female
+            <input type="radio" id="gen" name="gender">Others<br><br>
+            <label for="hobby">Hobbies</label>
+            <input type="checkbox" id="hobby">Singing
+            <input type="checkbox" id="hobby">Dancing
+            <input type="checkbox" id="hobby">Crafting<br><br>
+            <label for="date1">Date:</label>
+            <input type="date" id="date1"><br><br>
+            <label for="pic">Profile picture:</label>
+            <input type="file" id="pic"><br><br>
+            <label for="coun">Country:</label>
+            <select id="coun">
+                <option>India</option>
+                <option>China</option>
+                <option>Nepal</option>
+                <option>Bangladesh</option>
+                <option>USA</option>
+            </select><br><br>
+            <label for="add">Address:</label>
+            <textarea id="add" rows="5" cols="20"></textarea><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </fieldset>
+    <br>
+    <hr>
+    <table border=2>
+        <caption style="color: #0b0be0; font-size: 20px;font-style: italic;">Student table</caption>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th colspan="2">Marks and Grade</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Raj</td>
+            <td rowspan="5">Maths</td>
+            <td>100</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>80</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Raghu</td>
+            <td>70</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Rashmi</td>
+            <td>60</td>
+            <td>C</td>
+        </tr>
+         <tr>
+            <td>Ranjitha</td>
+            <td>94</td>
+            <td>A+</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total Students:</td>
+                <td colspan="3" style="text-align:center;">5</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br><hr>
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+</body>
+</html>

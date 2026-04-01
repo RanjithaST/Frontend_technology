@@ -2,15 +2,113 @@ h3 {
     color: red;
     border: 2px solid pink;
 }
-h2{
-    color:blue;
+
+h2 {
+    color: blue;
 }
-h3,p{
-    color:aqua
+
+#first {
+    color: brown
 }
-#first{
-    color:brown
-}
-.second{
+
+.second {
     color: aquamarine;
+}
+
+#col {
+    color: #6e3ece;
+    background-color: #d9eac2;
+    width: 220px;
+}
+
+#color {
+    color: rgb(14, 13, 9);
+}
+
+body {
+    background-color: hsl(60, 61%, 86%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#heading {
+    color: orange;
+    border: 4px solid orangered;
+    width: 220px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: 2px dashed blue;
+    outline-offset: 5px;
+    padding: 20px;
+    margin: 50px;
+}
+
+#heading1 {
+    border-width: 4px;
+    border-style: groove;
+    border-color: #78c6fe;
+    width: 240px;
+    border-radius: 200px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+}
+
+#heading2 {
+    color: rgb(130, 182, 226);
+    border-top: 2px solid green;
+    border-bottom: 4px double pink;
+    border-left: 4px dashed blue;
+    border-right: 4px dotted gold;
+    width: 250px;
+
+}
+
+#empty {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: #6e3ece;
+}
+
+.list li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.list1 li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.division a {
+    display: block;
+    border: 1px solid hsl(0, 58%, 51%);
+    width: 60px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.division a:nth-child(2) {
+    display: none;
+}
+
+.division a:nth-child(3) {
+    visibility: hidden;
 }
