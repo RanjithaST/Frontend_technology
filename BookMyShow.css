@@ -56,6 +56,9 @@ ul li{
  margin-top: -20px;
  margin-left:-2px;
  padding-bottom: 10px;
+ font-family: sans-serif;
+ font-size: 15px;
+ 
 }
 .rnav{
     position: relative;
@@ -68,6 +71,7 @@ ul li{
 }
 #h{
     margin-left: 15px;
+    font-family: sans-serif;
 }
 .foheader{
     margin-left: 40px;
@@ -88,6 +92,7 @@ ul li{
     margin: 0;
 }
 #all{
+    font-family: sans-serif;
     font-size: larger;
     position: relative;
     left:1185px;
@@ -97,6 +102,7 @@ ul li{
     text-decoration: none;
 }
 .desc li{
+    font-family: sans-serif;
     display: inline-block;
     width: 240px;        
     text-align: left;  
@@ -106,6 +112,7 @@ ul li{
     left: -30px;
 }
 .desc1 li{
+    font-family: sans-serif;
     display: inline-block;
     width: 250px;       
     text-align: left;  
@@ -128,6 +135,7 @@ ul li{
     margin-left: 45px;
     position: relative;
     top: -10px;
+    font-family: sans-serif;
 }
 .fiheader img{
     margin-left: 45px;
@@ -146,4 +154,152 @@ ul li{
     padding: 10px;
     border-radius: 50%;
     color:white;
+}
+#play{
+    color: white;
+    background-color: #e13737;
+    border-radius: 50%;
+    font-size: 60px;
+    position: relative;
+    top:-20px;
+ }
+.siheader{
+    margin-top: 40px;
+    padding: 60px;
+    background-color: rgb(59, 59, 96);
+    position: relative;
+    left: 10px;
+}
+#s1{
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top:-100px;
+    left:70px;
+    font-size: 25px;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+#s2{
+    position: relative;
+    top:-110px;
+    left:70px;
+    color: white;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#s11{
+    color: white;
+     position: relative;
+    top:-100px;
+    left:20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#s22{
+    position: relative;
+    top:-110px;
+    left:20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.si1 img{
+    position: relative;
+    display: inline-block;
+    top:-100px;
+    right: 25px;
+    height:360px;
+    width: 200px;
+    border-radius: 10px;
+}
+.si11 li{
+    font-family: sans-serif;
+    display: inline-block;
+    width: 230px;       
+    text-align: left;  
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top:-95px;
+    left: -20px;
+    color: white;
+}
+.si22 li{
+    font-family: sans-serif;
+    display: inline-block;
+    width: 230px;       
+    text-align: left;  
+    padding: 0;
+    margin: 0px;
+    position: relative;
+    top:-110px;
+    left: -20px;
+    color: white;
+
+}
+#sii1{
+    margin-left: 20px;
+}
+#d1{
+    margin-left: -8px;
+}
+#see11{
+    position: absolute;
+    bottom:350px;
+    left:1260px;
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.seheader{
+    position: relative;
+    top:5px;
+    margin-left: 30px;
+}
+.seheader img{
+     margin-left: 18px;
+    height:410px;
+    width:230px;
+    border-radius: 10px;
+    position: relative ;
+    top:-70px;
+}
+#q{
+    position:absolute;
+   left:1240px;
+   bottom:350px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+#q1{
+    position:absolute;
+    bottom: 330px;
+    left:1240px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+#q2{
+     position:absolute;
+    bottom:350px;
+    left:1240px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+.nheader{
+    background-color: rgb(74, 69, 69);
+    color: white;
+    margin: 0;
+}
+#p11{
+    position: relative;
+    top:20px;
+    font-family: sans-serif;
+    font-size: small;
+    
 }
