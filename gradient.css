@@ -1,0 +1,22 @@
+.grad{
+    height: 300px;
+    width: 300px;
+    border:1px solid black;
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg,red 45deg,blue 45deg,blue 90deg,green 90deg,green 135deg,
+    orange 135deg,orange 180deg,yellow 180deg,yellow 225deg,pink 225deg,pink 270deg,
+    black 270deg,black 315deg,white 315deg, white 360deg);
+    margin-bottom: 10px;
+}
+.grad1{
+    height: 300px;
+    width: 300px;
+    border:1px solid black;
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg,blue 45deg,green 90deg,
+    orange 135deg,yellow 180deg,pink 225deg,
+    black 270deg,white 315deg);
+    position: relative;
+    top:-310px;
+    left: 400px;
+}
