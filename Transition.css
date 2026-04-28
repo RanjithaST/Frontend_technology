@@ -62,7 +62,7 @@
     width: 80px;
     height: 40px;
     border: 5px solid black;
-    transition: border 3s;
+    transition: border 5s;
 }
 #q1:hover{
     border: 5px solid red;
@@ -116,4 +116,174 @@
 #box:hover{
     height: 150px;
     width: 150px;
+}
+#box1{
+    height: 50px;
+    width:50px;
+    background-color: red;
+    transition: transform 3s;
+    margin-bottom: 10px;
+}
+#box1:hover{
+    transform: translateX(200px) rotate(90deg);
+}
+#box2{
+    height: 50px;
+    width:50px;
+    background-color: red;
+    transition: transform 3s;
+    margin-bottom: 10px;
+}
+#box2:hover{
+    transform: translate(200px,100px);
+}
+#box3{
+    padding: 10px;
+    transition: transform 3s;
+    margin-bottom: 10px;
+}
+#box3:hover{
+    transform: scale(1.2);
+}
+#box4{
+    padding: 10px;
+    transition: transform 3s;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#box4:hover{
+    transform: scale(0.4);
+}
+
+#box5{
+    height: 50px;
+    width:50px;
+    background-color: red;
+    transition: transform 3s;
+    margin-bottom: 10px;
+}
+#box5:hover{
+    transform: scale(1.2) rotate(10deg);
+}
+.c1{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position:absolute;
+    z-index: 1;
+}
+.c2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(46, 142, 20);
+    position: absolute;
+    z-index: 2;
+}
+.c3{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(193, 56, 58);
+    position: absolute;
+    z-index: 3;
+}
+.container{
+    margin-top: 400px;
+    height: 200px;
+    width:500px;
+    border:4px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#box{
+    background-color: red;
+    border:1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+
+.container1{
+    margin-top: 10px;
+    height: 400px;
+    width:500px;
+    border:4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+}
+#box1{
+    background-color: red;
+    border:1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.container2{
+    margin-top: 10px;
+    height: 400px;
+    width:500px;
+    border:4px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    align-content: space-around;  
+}
+#box2{
+    background-color: red;
+    border:1px solid black;
+    height: 50px;
+    width: 50px;
+}
+.emptydiv6{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+   
+    animation: sonyanimi 2s infinite 5s;
+}
+@keyframes sonyanimi{
+    from {background-color: red} to {background-color: rgb(227, 213, 89)}
+}
+.emptydiv7{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    background-color: red;
+    animation: movement 3s infinite;
+    margin-top: 10px;
+}
+@keyframes movement{
+    from {transform: translate(0px);background-color: red;} 
+    to {transform: translate(200px);background-color: blue;};
+}
+
+.emptydiv8{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    background-color: red;
+    animation: movement1 3s 5;
+    margin-top: 10px;
+}
+@keyframes movement1{
+    0%{transform: translate(0px);background-color: red;
+    } 
+    25%{transform: translateX(200px);background-color: blue;
+    }
+    50%{transform: translate(200px,200px);background-color: rgb(38, 162, 67);
+    }
+    75%{transform: translateY(200px);background-color: rgb(186, 168, 31);
+    }
+    100%{transform: translate(0px);background-color:red;
+    };
+}
+.em{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    transition: transform 5s;
+}
+.em:active{
+    transform: rotate(180deg);
 }
